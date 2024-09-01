@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#E0F1E8 ;
+}
+
+main{
+  margin: 1em;
+  background-color: white;
+  border-radius: 15px;
+}
+
+form{
+  padding: 1.5em;
+}
+
+span{
+  color: #0C7D69;
+}
+
+.typing{
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+}
+
+form div{
+  margin-top:5%;
+}
+
+label, input{
+  
+}
+

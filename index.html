@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+    <main>
+      <form>
+        <h1>Contact Us</h1>
+
+        <div class="names">
+          <div>
+          <label>First Name <span>*</span></label>
+          <br>
+          <input type="text" class="typing" maxlength="10" id="firstname">
+          </div>
+
+          <div>
+          <label>Last Name <span>*</span></label>
+          <br>
+          <input type="text" class="typing" id="secondname">
+          </div>
+        </div>
+
+        <label>Email Address <span>*</span></label>
+        <br>
+        <input type="email" class="typing" id="email">
+
+        <div class="query">
+          <label>Query Type <span>*</span></label>
+          
+          <div>
+          <input type="radio" name="generalEnquiry" id="genEnqInput">General Enquiry</input>
+          <br>
+          <input type="radio" name="suppResquest" id="suppResquestInput">Support Request</input>
+        </div>
+
+        <label>Message <span>*</span></label>
+        <br>
+          <input type="text" class="typing" id="message">
+        </div>
+
+        <input type="checkbox">I consent to being contacted by the team <span>*</span></input>
+        <button type="submit" id="submitBtn">Submit</button>
+
+      </form>
+      
+    </main>
+
+    <footer>
+
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
